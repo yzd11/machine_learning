@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # 读入数据
-data = pd.read_csv("D:\\BaiduNetdiskDownload\\ML_NG\\01-linear regression\\ex1data1.txt",names = ['population','profit'])
+data = pd.read_csv("ex1data1.txt",names = ['population','profit'])
 
 # 数据插入
 data.insert(0,'ones',1)

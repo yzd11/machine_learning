@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 读入数据
-data = pd.read_csv("D:\\BaiduNetdiskDownload\\ML_NG\\01-linear regression\\ex1data2.txt",names = ['size','bedrooms','price'])
+data = pd.read_csv("ex1data2.txt",names = ['size','bedrooms','price'])
 
 # 特征缩放
 def normalize_feature(data):
